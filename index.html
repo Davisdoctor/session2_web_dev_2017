@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Supermarket System</title>
+
+		<style>
+
+			.heading{
+				color: green;
+				font-weight: bold;
+				font-family: fantasy;
+				text-align: center;
+				text-decoration: underline;
+			}
+
+			.fieldset{
+					width: 60%;
+					margin: auto;
+			}
+
+			.table{
+			padding: 4px;
+			width: 90%;
+			margin: auto;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<h1 class="heading">Model Supermarket Management System</h1>
+
+		<fieldset class='fieldset'>  
+		<legend>Stock registration form</legend>
+			<form method="POST" action="submit.php">
+				<table class="table">
+					<tr>
+						<td><label>Item name</label></td>
+						<td><input type="text" name="item_name" step="10" required></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><label>Item Quantity</label></td>
+						<td><input type="number" name="item_name" required></td>
+					</tr>
+					<tr>
+						<td><label>Date</label></td>
+						<td><input type="date" name="item_name"  required></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Save information"></td>
+					</tr>
+				</table>
+			</form>
+
+		</fieldset>
+		
+	</body>
+
+</html>
+
+
+
